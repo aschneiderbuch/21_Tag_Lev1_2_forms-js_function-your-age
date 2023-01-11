@@ -29,6 +29,6 @@ function rechnenAlter(){
 
     console.log(ergebnis);
 
-    outputGeburtsjahr.innerHTML = ergebnis;
+    outputGeburtsjahr.innerHTML += "du bist schon " + ergebnis + " Jahre alt. (stand 2022)";
 
 }
